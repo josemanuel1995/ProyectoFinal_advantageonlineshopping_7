@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.indra.runners.RegisterUserRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CD1346NKF" time="0.0">
+  <properties/>
+  <system-out><![CDATA[17:44:36.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\serenity.properties 
+17:44:36.156 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\serenity.properties 
+17:44:36.157 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\serenity.properties 
+17:44:36.167 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+17:44:36.168 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+17:44:36.168 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+17:44:36.168 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+17:44:36.168 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+17:44:36.168 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://automationpractice.com
+17:44:36.168 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+17:44:36.168 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=4000
+17:44:36.169 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+17:44:36.169 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+17:44:36.169 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+17:44:36.475 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\serenity.properties 
+17:44:36.484 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\serenity.properties 
+17:44:36.485 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\serenity.properties 
+17:44:36.486 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+17:44:36.486 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+17:44:36.486 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+17:44:36.487 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+17:44:36.487 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+17:44:36.487 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://automationpractice.com
+17:44:36.487 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+17:44:36.487 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=4000
+17:44:36.488 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+17:44:36.488 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+17:44:36.488 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+17:44:36.494 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+?[0m
+17:44:36.500 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1097c48f
+17:44:36.504 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Formulario de Registro
+17:44:36.557 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: EL usuario quiere registrarse para hacer sus compras
+-------------------------------------------------------------------(formulario-de-registro;el-usuario-quiere-registrarse-para-hacer-sus-compras)
+17:44:36.647 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+17:44:36.648 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+17:44:57.273 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+17:44:57.336 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+17:44:57.348 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@2e73ee54
+17:44:57.349 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Formulario de Registro:EL usuario quiere registrarse para hacer sus compras
+17:44:57.349 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@2e73ee54: Generating report for test outcome: Formulario de Registro:EL usuario quiere registrarse para hacer sus compras
+17:44:57.353 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for EL usuario quiere registrarse para hacer sus compras to file C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\target\site\serenity\7fe27f231bda8ec44409e44fadbfa53902a9b030e6e6ffd3b4841e4235f083ab.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\target\site\serenity\7fe27f231bda8ec44409e44fadbfa53902a9b030e6e6ffd3b4841e4235f083ab.json514ddc13-3615-409e-bad1-d54029b6b2c4)
+17:44:57.408 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Formulario de Registro:EL usuario quiere registrarse para hacer sus compras done
+17:44:57.409 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+17:44:57.409 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 61 ms
+17:44:57.409 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@78ab8aa4
+17:44:57.409 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Formulario de Registro:EL usuario quiere registrarse para hacer sus compras
+17:44:57.409 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@78ab8aa4: Generating report for test outcome: Formulario de Registro:EL usuario quiere registrarse para hacer sus compras
+17:44:57.410 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR EL usuario quiere registrarse para hacer sus compras in 7fe27f231bda8ec44409e44fadbfa53902a9b030e6e6ffd3b4841e4235f083ab
+17:44:57.455 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+17:44:57.455 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+17:44:57.458 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Automationpractice', type='theme' parent = 'null', cardNumber='null'}]
+17:44:57.464 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome EL usuario quiere registrarse para hacer sus compras-[]: Optional[Requirement{name='Formulario de Registro', type='feature' parent = 'Registro us', cardNumber='null'}]
+17:44:57.466 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome EL usuario quiere registrarse para hacer sus compras-[]: Optional[Requirement{name='Formulario de Registro', type='feature' parent = 'Registro us', cardNumber='null'}]
+17:44:57.505 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome EL usuario quiere registrarse para hacer sus compras-[]: Optional[Requirement{name='Formulario de Registro', type='feature' parent = 'Registro us', cardNumber='null'}]
+17:44:57.506 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome EL usuario quiere registrarse para hacer sus compras-[]: Optional[Requirement{name='Formulario de Registro', type='feature' parent = 'Registro us', cardNumber='null'}]
+17:44:57.670 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 7fe27f231bda8ec44409e44fadbfa53902a9b030e6e6ffd3b4841e4235f083ab_screenshots.html
+17:44:58.035 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 7fe27f231bda8ec44409e44fadbfa53902a9b030e6e6ffd3b4841e4235f083ab_screenshots.html in 365 ms
+17:44:58.036 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Formulario de Registro:EL usuario quiere registrarse para hacer sus compras in 7fe27f231bda8ec44409e44fadbfa53902a9b030e6e6ffd3b4841e4235f083ab.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\target\site\serenity  
+17:44:58.039 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 7fe27f231bda8ec44409e44fadbfa53902a9b030e6e6ffd3b4841e4235f083ab.html
+17:44:58.175 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 7fe27f231bda8ec44409e44fadbfa53902a9b030e6e6ffd3b4841e4235f083ab.html in 137 ms
+17:44:58.175 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Formulario de Registro:EL usuario quiere registrarse para hacer sus compras done
+17:44:58.175 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+17:44:58.175 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 766 ms
+17:44:58.378 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+17:44:58.379 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+
+1 Scenarios (?[32m1 passed?[0m)
+4 Steps (?[32m4 passed?[0m)
+0m20,902s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

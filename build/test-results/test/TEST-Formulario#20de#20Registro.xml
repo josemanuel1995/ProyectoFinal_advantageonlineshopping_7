@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Formulario de Registro" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-21T22:44:36" hostname="22LAP5CD1346NKF" time="20.601">
+  <properties/>
+  <testcase name="EL usuario quiere registrarse para hacer sus compras" classname="Formulario de Registro" time="20.601"/>
+  <system-out><![CDATA[17:44:37.431 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+17:44:37.431 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [], extensions: []}, incognito: true, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+17:44:45.415 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+17:44:45.415 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+17:44:45.698 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\target\site\serenity\c6ea513785c80f4d3ac7fcc84d2e4e02098eaa472280f845a0d68a042f7613fc.png
+17:44:46.989 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\target\site\serenity\30b75506fc8194758ac86fff8ba60bdeda7817baeabac76e87797cc907f1f98f.png
+17:44:46.993 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6483482626808147396
+17:44:46.993 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\target\site\serenity\30b75506fc8194758ac86fff8ba60bdeda7817baeabac76e87797cc907f1f98f.png
+17:44:55.267 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\target\site\serenity\d9aae4e27b8acba1a3a824dc20592bdb0427476d54e0206f37e1f015d650a012.png
+17:44:55.501 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\EJERCICIOS_BOOTCAMP\Retos\Project_Register\target\site\serenity\d9aae4e27b8acba1a3a824dc20592bdb0427476d54e0206f37e1f015d650a012.png
+17:44:57.269 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: EL usuario quiere registrarse para hacer sus compras
+----------------------------------------------------------------------------?[0m
+]]></system-out>
+  <system-err><![CDATA[dic 21, 2021 5:44:36 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 24719
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+dic 21, 2021 5:44:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>
