@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.indra.runners.ComprarProductosOnlineRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CD1346NKF" time="0.0">
+  <properties/>
+  <system-out><![CDATA[05:12:56.510 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\serenity.properties 
+05:12:56.704 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\serenity.properties 
+05:12:56.706 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\serenity.properties 
+05:12:56.713 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+05:12:56.713 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+05:12:56.713 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--incognito
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://advantageonlineshopping.com
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=18000
+05:12:56.719 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+05:12:56.996 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\serenity.properties 
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\serenity.properties 
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\serenity.properties 
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--incognito
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://advantageonlineshopping.com
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=18000
+05:12:57.100 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+05:12:57.111 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+?[0m
+05:12:57.111 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@c6dfd941
+05:12:57.111 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Realizar la compra en línea de productos de tecnología
+05:12:57.161 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: La canasta de compras muestra los detalles del producto a comprar
+-------------------------------------------------------------------(realizar-la-compra-en-línea-de-productos-de-tecnología;la-canasta-de-compras-muestra-los-detalles-del-producto-a-comprar)
+05:12:57.243 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:12:57.243 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:13:16.403 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: El carrito de compras deberia visualizar la opcion Shipping Details
+-------------------------------------------------------------------(realizar-la-compra-en-línea-de-productos-de-tecnología;el-carrito-de-compras-deberia-visualizar-la-opcion-shipping-details)
+05:13:39.600 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: El usario deberia poder editar la Informacion de Shopping Details
+-------------------------------------------------------------------(realizar-la-compra-en-línea-de-productos-de-tecnología;el-usario-deberia-poder-editar-la-informacion-de-shopping-details)
+05:14:12.179 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: el usuario deberia poder visulizar dos opciones de pago
+-------------------------------------------------------------------(realizar-la-compra-en-línea-de-productos-de-tecnología;el-usuario-deberia-poder-visulizar-dos-opciones-de-pago)
+05:14:32.253 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: el usuario deberia poder ver la opcion de editar tarjeta
+-------------------------------------------------------------------(realizar-la-compra-en-línea-de-productos-de-tecnología;el-usuario-deberia-poder-ver-la-opcion-de-editar-tarjeta)
+05:15:11.263 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: el usuario deberia poder ver los datos de la tarjeta anterior
+-------------------------------------------------------------------(realizar-la-compra-en-línea-de-productos-de-tecnología;el-usuario-deberia-poder-ver-los-datos-de-la-tarjeta-anterior)
+05:15:32.210 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: el usuario deberia poder ver la opcion Pay Now
+-------------------------------------------------------------------(realizar-la-compra-en-línea-de-productos-de-tecnología;el-usuario-deberia-poder-ver-la-opcion-pay-now)
+05:15:52.868 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: el usuario deberia poder ver la orden de pago
+-------------------------------------------------------------------(realizar-la-compra-en-línea-de-productos-de-tecnología;el-usuario-deberia-poder-ver-la-orden-de-pago)
+05:16:14.575 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+05:16:14.648 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+05:16:14.657 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 8 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf
+05:16:14.658 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:La canasta de compras muestra los detalles del producto a comprar
+05:16:14.658 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder visulizar dos opciones de pago
+05:16:14.658 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder visulizar dos opciones de pago
+05:16:14.658 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion de editar tarjeta
+05:16:14.658 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:El carrito de compras deberia visualizar la opcion Shipping Details
+05:16:14.658 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion Pay Now
+05:16:14.658 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:El usario deberia poder editar la Informacion de Shopping Details
+05:16:14.658 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:La canasta de compras muestra los detalles del producto a comprar
+05:16:14.658 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:El usario deberia poder editar la Informacion de Shopping Details
+05:16:14.658 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion de editar tarjeta
+05:16:14.658 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la orden de pago
+05:16:14.658 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:El carrito de compras deberia visualizar la opcion Shipping Details
+05:16:14.658 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion Pay Now
+05:16:14.658 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver los datos de la tarjeta anterior
+05:16:14.659 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la orden de pago
+05:16:14.659 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@63bfc2cf: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver los datos de la tarjeta anterior
+05:16:14.665 [pool-1-thread-3] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for El usario deberia poder editar la Informacion de Shopping Details to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\a951ca69bb1d5f74a7a52ef8be8db3b3581e4f537ed15aa8983d89bba571b576.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\a951ca69bb1d5f74a7a52ef8be8db3b3581e4f537ed15aa8983d89bba571b576.jsoncf94dbbb-22b0-47b3-ac24-1e209a4f575a)
+05:16:14.665 [pool-1-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for El carrito de compras deberia visualizar la opcion Shipping Details to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\30d61a623ca98437bed5a0d24cc36322677a59006644f86c8ed632a1b53c97e3.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\30d61a623ca98437bed5a0d24cc36322677a59006644f86c8ed632a1b53c97e3.json69d6a339-6be2-4120-b506-26f2ed1222d0)
+05:16:14.665 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for La canasta de compras muestra los detalles del producto a comprar to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\5b7e93a488b43ab00b40634bccb1f3e2da229088e3143a7d9d228155b62c8444.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\5b7e93a488b43ab00b40634bccb1f3e2da229088e3143a7d9d228155b62c8444.jsoncf3b0e87-8467-4fc0-9d8f-68040c80dc38)
+05:16:14.665 [pool-1-thread-7] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for el usuario deberia poder ver la opcion Pay Now to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\645dcef3294da3458fa5e90fc0d58ae26ab69f37f9961c0567d64113fd5bbf47.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\645dcef3294da3458fa5e90fc0d58ae26ab69f37f9961c0567d64113fd5bbf47.json19389ac6-f0c3-428e-9e3d-3cfe01a08536)
+05:16:14.665 [pool-1-thread-6] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for el usuario deberia poder ver los datos de la tarjeta anterior to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\28a46825d1c94460433e775410f7469cf3ba99348b15317778c8b97fdf5f5c06.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\28a46825d1c94460433e775410f7469cf3ba99348b15317778c8b97fdf5f5c06.json583f0f67-032a-41e2-9b4f-d3fc2af15c45)
+05:16:14.665 [pool-1-thread-5] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for el usuario deberia poder ver la opcion de editar tarjeta to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\6856ec847e85362cd53669c40f5a8a5ce252d2058e05f217060188243886113b.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\6856ec847e85362cd53669c40f5a8a5ce252d2058e05f217060188243886113b.jsonb2f06ddb-7400-4351-9a6b-0f098939a4f4)
+05:16:14.665 [pool-1-thread-4] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for el usuario deberia poder visulizar dos opciones de pago to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\233a144620a836af4977c98a6ba18bacc4248532ff09baba6c881b1cd01ce084.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\233a144620a836af4977c98a6ba18bacc4248532ff09baba6c881b1cd01ce084.json13eaaab5-91a3-4014-9e19-4bc5fd71bf12)
+05:16:14.665 [pool-1-thread-8] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for el usuario deberia poder ver la orden de pago to file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\5bc610ab68a0949a700e7c251922dc80a4410ab9fc3d5764fefe6a111134f834.json (using temp file C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity\5bc610ab68a0949a700e7c251922dc80a4410ab9fc3d5764fefe6a111134f834.jsond8b83753-ad68-473d-b3a1-770107b29f22)
+05:16:14.746 [pool-1-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder visulizar dos opciones de pago done
+05:16:14.746 [pool-1-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion de editar tarjeta done
+05:16:14.749 [pool-1-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:El usario deberia poder editar la Informacion de Shopping Details done
+05:16:14.749 [pool-1-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion Pay Now done
+05:16:14.750 [pool-1-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:El carrito de compras deberia visualizar la opcion Shipping Details done
+05:16:14.753 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:La canasta de compras muestra los detalles del producto a comprar done
+05:16:14.753 [pool-1-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la orden de pago done
+05:16:14.756 [pool-1-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver los datos de la tarjeta anterior done
+05:16:14.756 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+05:16:14.756 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 99 ms
+05:16:14.756 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 8 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c
+05:16:14.756 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:La canasta de compras muestra los detalles del producto a comprar
+05:16:14.757 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:La canasta de compras muestra los detalles del producto a comprar
+05:16:14.757 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:El carrito de compras deberia visualizar la opcion Shipping Details
+05:16:14.757 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:El carrito de compras deberia visualizar la opcion Shipping Details
+05:16:14.757 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:El usario deberia poder editar la Informacion de Shopping Details
+05:16:14.757 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:El usario deberia poder editar la Informacion de Shopping Details
+05:16:14.757 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR El carrito de compras deberia visualizar la opcion Shipping Details in 30d61a623ca98437bed5a0d24cc36322677a59006644f86c8ed632a1b53c97e3
+05:16:14.757 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR La canasta de compras muestra los detalles del producto a comprar in 5b7e93a488b43ab00b40634bccb1f3e2da229088e3143a7d9d228155b62c8444
+05:16:14.757 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver los datos de la tarjeta anterior
+05:16:14.757 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver los datos de la tarjeta anterior
+05:16:14.757 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR el usuario deberia poder ver los datos de la tarjeta anterior in 28a46825d1c94460433e775410f7469cf3ba99348b15317778c8b97fdf5f5c06
+05:16:14.757 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR El usario deberia poder editar la Informacion de Shopping Details in a951ca69bb1d5f74a7a52ef8be8db3b3581e4f537ed15aa8983d89bba571b576
+05:16:14.757 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder visulizar dos opciones de pago
+05:16:14.758 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder visulizar dos opciones de pago
+05:16:14.758 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion Pay Now
+05:16:14.758 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion Pay Now
+05:16:14.757 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion de editar tarjeta
+05:16:14.758 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion de editar tarjeta
+05:16:14.758 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR el usuario deberia poder ver la opcion Pay Now in 645dcef3294da3458fa5e90fc0d58ae26ab69f37f9961c0567d64113fd5bbf47
+05:16:14.758 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR el usuario deberia poder ver la opcion de editar tarjeta in 6856ec847e85362cd53669c40f5a8a5ce252d2058e05f217060188243886113b
+05:16:14.758 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR el usuario deberia poder visulizar dos opciones de pago in 233a144620a836af4977c98a6ba18bacc4248532ff09baba6c881b1cd01ce084
+05:16:14.758 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la orden de pago
+05:16:14.758 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18e1e15c: Generating report for test outcome: Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la orden de pago
+05:16:14.758 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR el usuario deberia poder ver la orden de pago in 5bc610ab68a0949a700e7c251922dc80a4410ab9fc3d5764fefe6a111134f834
+05:16:14.815 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:16:14.815 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:16:14.816 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:16:14.816 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:16:14.817 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:16:14.817 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:16:14.821 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:16:14.821 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:16:14.821 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:16:14.821 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:16:14.822 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:16:14.821 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+05:16:14.822 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:16:14.826 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+05:16:14.826 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+05:16:14.826 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:16:14.828 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+05:16:14.828 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:16:14.829 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+05:16:14.830 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+05:16:14.831 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+05:16:14.843 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la opcion de editar tarjeta-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.843 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome El usario deberia poder editar la Informacion de Shopping Details-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.843 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder visulizar dos opciones de pago-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.844 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la opcion Pay Now-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.844 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder visulizar dos opciones de pago-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.845 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la opcion Pay Now-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.846 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome La canasta de compras muestra los detalles del producto a comprar-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.846 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la orden de pago-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.847 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome La canasta de compras muestra los detalles del producto a comprar-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.847 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la orden de pago-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.849 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la opcion de editar tarjeta-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.849 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver los datos de la tarjeta anterior-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.850 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver los datos de la tarjeta anterior-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.851 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome El usario deberia poder editar la Informacion de Shopping Details-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.856 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+05:16:14.856 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+05:16:14.860 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Test advantageonlineshopping', type='capability' parent = 'null', cardNumber='null'}]
+05:16:14.861 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome El carrito de compras deberia visualizar la opcion Shipping Details-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.862 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome El carrito de compras deberia visualizar la opcion Shipping Details-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.892 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome La canasta de compras muestra los detalles del producto a comprar-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.892 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la opcion Pay Now-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.892 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome La canasta de compras muestra los detalles del producto a comprar-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.893 [pool-2-thread-7] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la opcion Pay Now-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.893 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la opcion de editar tarjeta-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.893 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder visulizar dos opciones de pago-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.894 [pool-2-thread-5] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la opcion de editar tarjeta-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.896 [pool-2-thread-4] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder visulizar dos opciones de pago-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.896 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome El carrito de compras deberia visualizar la opcion Shipping Details-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.897 [pool-2-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome El carrito de compras deberia visualizar la opcion Shipping Details-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.897 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome El usario deberia poder editar la Informacion de Shopping Details-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.897 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver los datos de la tarjeta anterior-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.897 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la orden de pago-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.898 [pool-2-thread-3] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome El usario deberia poder editar la Informacion de Shopping Details-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.898 [pool-2-thread-6] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver los datos de la tarjeta anterior-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.898 [pool-2-thread-8] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder ver la orden de pago-[]: Optional[Requirement{name='Realizar la compra en línea de productos de tecnología', type='feature' parent = 'Test advantageonlineshopping', cardNumber='null'}]
+05:16:14.974 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 28a46825d1c94460433e775410f7469cf3ba99348b15317778c8b97fdf5f5c06_screenshots.html
+05:16:14.974 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 645dcef3294da3458fa5e90fc0d58ae26ab69f37f9961c0567d64113fd5bbf47_screenshots.html
+05:16:14.974 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 233a144620a836af4977c98a6ba18bacc4248532ff09baba6c881b1cd01ce084_screenshots.html
+05:16:14.974 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 6856ec847e85362cd53669c40f5a8a5ce252d2058e05f217060188243886113b_screenshots.html
+05:16:14.974 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5b7e93a488b43ab00b40634bccb1f3e2da229088e3143a7d9d228155b62c8444_screenshots.html
+05:16:14.974 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 30d61a623ca98437bed5a0d24cc36322677a59006644f86c8ed632a1b53c97e3_screenshots.html
+05:16:14.974 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5bc610ab68a0949a700e7c251922dc80a4410ab9fc3d5764fefe6a111134f834_screenshots.html
+05:16:14.974 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in a951ca69bb1d5f74a7a52ef8be8db3b3581e4f537ed15aa8983d89bba571b576_screenshots.html
+05:16:15.351 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 233a144620a836af4977c98a6ba18bacc4248532ff09baba6c881b1cd01ce084_screenshots.html in 376 ms
+05:16:15.351 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report a951ca69bb1d5f74a7a52ef8be8db3b3581e4f537ed15aa8983d89bba571b576_screenshots.html in 377 ms
+05:16:15.352 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Realizar la compra en línea de productos de tecnología:el usuario deberia poder visulizar dos opciones de pago in 233a144620a836af4977c98a6ba18bacc4248532ff09baba6c881b1cd01ce084.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity  
+05:16:15.352 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 28a46825d1c94460433e775410f7469cf3ba99348b15317778c8b97fdf5f5c06_screenshots.html in 378 ms
+05:16:15.354 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver los datos de la tarjeta anterior in 28a46825d1c94460433e775410f7469cf3ba99348b15317778c8b97fdf5f5c06.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity  
+05:16:15.362 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 28a46825d1c94460433e775410f7469cf3ba99348b15317778c8b97fdf5f5c06.html
+05:16:15.364 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5b7e93a488b43ab00b40634bccb1f3e2da229088e3143a7d9d228155b62c8444_screenshots.html in 390 ms
+05:16:15.365 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Realizar la compra en línea de productos de tecnología:La canasta de compras muestra los detalles del producto a comprar in 5b7e93a488b43ab00b40634bccb1f3e2da229088e3143a7d9d228155b62c8444.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity  
+05:16:15.366 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 6856ec847e85362cd53669c40f5a8a5ce252d2058e05f217060188243886113b_screenshots.html in 392 ms
+05:16:15.367 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion de editar tarjeta in 6856ec847e85362cd53669c40f5a8a5ce252d2058e05f217060188243886113b.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity  
+05:16:15.369 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5b7e93a488b43ab00b40634bccb1f3e2da229088e3143a7d9d228155b62c8444.html
+05:16:15.371 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 30d61a623ca98437bed5a0d24cc36322677a59006644f86c8ed632a1b53c97e3_screenshots.html in 397 ms
+05:16:15.373 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Realizar la compra en línea de productos de tecnología:El carrito de compras deberia visualizar la opcion Shipping Details in 30d61a623ca98437bed5a0d24cc36322677a59006644f86c8ed632a1b53c97e3.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity  
+05:16:15.375 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Realizar la compra en línea de productos de tecnología:El usario deberia poder editar la Informacion de Shopping Details in a951ca69bb1d5f74a7a52ef8be8db3b3581e4f537ed15aa8983d89bba571b576.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity  
+05:16:15.378 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 6856ec847e85362cd53669c40f5a8a5ce252d2058e05f217060188243886113b.html
+05:16:15.380 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5bc610ab68a0949a700e7c251922dc80a4410ab9fc3d5764fefe6a111134f834_screenshots.html in 406 ms
+05:16:15.381 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 645dcef3294da3458fa5e90fc0d58ae26ab69f37f9961c0567d64113fd5bbf47_screenshots.html in 407 ms
+05:16:15.383 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion Pay Now in 645dcef3294da3458fa5e90fc0d58ae26ab69f37f9961c0567d64113fd5bbf47.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity  
+05:16:15.383 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la orden de pago in 5bc610ab68a0949a700e7c251922dc80a4410ab9fc3d5764fefe6a111134f834.html in directory C:\EJERCICIOS_BOOTCAMP\Retos\ProyectoFinal_advantageonlineshopping_7\target\site\serenity  
+05:16:15.385 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 233a144620a836af4977c98a6ba18bacc4248532ff09baba6c881b1cd01ce084.html
+05:16:15.390 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 645dcef3294da3458fa5e90fc0d58ae26ab69f37f9961c0567d64113fd5bbf47.html
+05:16:15.391 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 5bc610ab68a0949a700e7c251922dc80a4410ab9fc3d5764fefe6a111134f834.html
+05:16:15.392 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in a951ca69bb1d5f74a7a52ef8be8db3b3581e4f537ed15aa8983d89bba571b576.html
+05:16:15.413 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 30d61a623ca98437bed5a0d24cc36322677a59006644f86c8ed632a1b53c97e3.html
+05:16:15.553 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5b7e93a488b43ab00b40634bccb1f3e2da229088e3143a7d9d228155b62c8444.html in 184 ms
+05:16:15.553 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:La canasta de compras muestra los detalles del producto a comprar done
+05:16:15.559 [pool-2-thread-4] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 233a144620a836af4977c98a6ba18bacc4248532ff09baba6c881b1cd01ce084.html in 174 ms
+05:16:15.559 [pool-2-thread-4] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder visulizar dos opciones de pago done
+05:16:15.571 [pool-2-thread-5] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 6856ec847e85362cd53669c40f5a8a5ce252d2058e05f217060188243886113b.html in 193 ms
+05:16:15.571 [pool-2-thread-5] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion de editar tarjeta done
+05:16:15.571 [pool-2-thread-7] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 645dcef3294da3458fa5e90fc0d58ae26ab69f37f9961c0567d64113fd5bbf47.html in 181 ms
+05:16:15.571 [pool-2-thread-7] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la opcion Pay Now done
+05:16:15.591 [pool-2-thread-6] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 28a46825d1c94460433e775410f7469cf3ba99348b15317778c8b97fdf5f5c06.html in 229 ms
+05:16:15.591 [pool-2-thread-8] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 5bc610ab68a0949a700e7c251922dc80a4410ab9fc3d5764fefe6a111134f834.html in 200 ms
+05:16:15.591 [pool-2-thread-6] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver los datos de la tarjeta anterior done
+05:16:15.591 [pool-2-thread-8] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:el usuario deberia poder ver la orden de pago done
+05:16:15.601 [pool-2-thread-3] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report a951ca69bb1d5f74a7a52ef8be8db3b3581e4f537ed15aa8983d89bba571b576.html in 209 ms
+05:16:15.601 [pool-2-thread-3] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:El usario deberia poder editar la Informacion de Shopping Details done
+05:16:15.897 [pool-2-thread-2] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 30d61a623ca98437bed5a0d24cc36322677a59006644f86c8ed632a1b53c97e3.html in 484 ms
+05:16:15.897 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Realizar la compra en línea de productos de tecnología:El carrito de compras deberia visualizar la opcion Shipping Details done
+05:16:15.897 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+05:16:15.897 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1141 ms
+05:16:16.029 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+05:16:16.029 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+
+8 Scenarios (?[32m8 passed?[0m)
+34 Steps (?[32m34 passed?[0m)
+3m17,683s
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
